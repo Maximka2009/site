@@ -1,0 +1,62 @@
+.body {
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+}
+.header {
+    background-image: url(js.jpg);
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: block;
+    height: 75vh;
+    font-size: 50pt;
+    padding-top: 256px;
+    background-size: 100%;
+    animation-name: header-img;
+    animation-duration: 20s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.button {
+    text-decoration: none;
+    border-color: transparent;
+    border-radius: 360px;
+    background-color: rgb(255, 196, 0);
+    width: 350px;
+    height: 100px;
+    color: black;
+    font-weight: 600;
+}
+@keyframes header-img {
+    0% {
+        background-image: url(js.jpg);
+        
+    }
+    25% {
+        background-image: url(code.jpg);
+        
+    }
+    50% {
+        background-image: url(code_a.jpg);
+        
+    }
+    75% {
+        background-image: url(code_b.jpg);
+        color: black;
+    }
+    100% {
+        background-image: url(js.jpg);
+    }
+}
